@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.card{
+    border: 5px solid red;
+    background-color: white;
+
+}
+
+.title{
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+    color: black;
+}
+
+body{
+    background-color: #E4E5F6;
+}
+
+.social-login{
+    padding: 0;
+    border: 5px solid red;
+}
+
+.google-btn{
+    border: 5px solid blue;
+}
+
+.btn-text{
+    border: 5px solid red;
+}
+
+.or{
+    text-align: center;
+    border: 5px solid red;
+}
+
+.email-login{
+    text-align: center;
+    border: 5px solid red;
+}
+
+.cta-btn{
+    border: 5px solid red;
+}
+
+.forget-pass{
+    border: 5px solid red;
+}
