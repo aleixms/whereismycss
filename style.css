@@ -7,15 +7,26 @@
 .card{
     border: 5px solid red;
     background-color: white;
-
+    width: 360px;
+    height: 505px;
+    margin-top: 25%;
+    color: #FFFFFF;
 }
 
 .title{
     text-align: center;
+    color: black;
 }
 .subtitle{
     text-align: center;
     color: black;
+    font-weight:600;
+    padding-top: 15px;
+}
+
+a{
+    color: #1500E9;
+    text-decoration: none;
 }
 
 body{
@@ -23,32 +34,54 @@ body{
 }
 
 .social-login{
-    padding: 0;
-    border: 5px solid red;
+    border: 5px solid peru;
+    display: flex;
+    
 }
 
 .google-btn{
     border: 5px solid blue;
+    width: 40px;
+    height: 40px;
 }
 
 .btn-text{
+    border: 5px solid green;
+}
+
+.fb-btn{
     border: 5px solid red;
+    width: 40px;
+    height: 40px;
 }
 
 .or{
     text-align: center;
     border: 5px solid red;
+    color: black;
 }
 
 .email-login{
     text-align: center;
-    border: 5px solid red;
+    border: 5px solid sienna;
+    color: #A9A6A6;
 }
 
+input{
+    border-radius: 5px;
+}
 .cta-btn{
-    border: 5px solid red;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    background-color: #4744B6;
+    display: block;
+    margin-top: 20px;
 }
 
 .forget-pass{
-    border: 5px solid red;
+    border: 5px solid fuchsia;
+    color: #1500E9;
+    text-decoration: none;
 }
